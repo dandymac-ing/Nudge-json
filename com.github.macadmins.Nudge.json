@@ -20,22 +20,10 @@
         {
           "_language": "en",
           "aboutUpdateURL": "https://support.apple.com/en-us/HT211896#macos1121"
-        },
-        {
-          "_language": "es",
-          "aboutUpdateURL": "https://support.apple.com/es-es/HT211896"
-        },
-        {
-          "_language": "fr",
-          "aboutUpdateURL": "https://support.apple.com/fr-fr/HT211896"
-        },
-        {
-          "_language": "de",
-          "aboutUpdateURL": "https://support.apple.com/de-de/HT211896"
         }
       ],
       "majorUpgradeAppPath": "/Applications/Install macOS Monterey.app",
-      "requiredInstallationDate": "2022-09-15T00:00:00Z",
+      "requiredInstallationDate": "2022-09-16T00:00:00Z",
       "requiredMinimumOSVersion": "13.1",
       "targetedOSVersionsRule": "default"
     }
