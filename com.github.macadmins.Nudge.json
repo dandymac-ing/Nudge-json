@@ -1,7 +1,7 @@
 {
   "optionalFeatures": {
-    "acceptableApplicationBundleIDs": [us.zoom.videomeetings],
-    "acceptableAssertionApplicationNames": [zoom.us]
+    "acceptableApplicationBundleIDs": "us.zoom.videomeetings",
+    "acceptableAssertionApplicationNames": "zoom.us"
     "acceptableAssertionUsage": false,
     "acceptableCameraUsage": false,
     "acceptableScreenSharingUsage": false,
@@ -69,8 +69,7 @@
         "mainContentHeader": "Your Mac will restart at least once during this update",
         "mainContentNote": "Please be certain to plug in your laptop to Power before proceeding",
         "mainContentSubHeader": "Updates can take up to 45 minutes or, rarely, longer to complete",
-        "mainContentText": "Hello! A fully up-to-date Mac is required to ensure compliance with InfoSec requirements as well as keeping your Mac functioning at its best and most secure.\n\nPlease complete this upgrade at your earliest convenience.\n\nTo begin the update, simply click on the ‘Update my Mac’ button and follow the provided steps.\n\n(You will be brought to your System Preferences to step through the upgrade)
-",
+        "mainContentText": "Hello! A fully up-to-date Mac is required to ensure compliance with InfoSec requirements as well as keeping your Mac functioning at its best and most secure.\n\nPlease complete this upgrade at your earliest convenience.\n\nTo begin the update, simply click on the ‘Update my Mac’ button and follow the provided steps.\n\n(You will be brought to your System Preferences to step through the upgrade)",
         "mainHeader": "Handshake Service Desk: macOS Software Update Required",
         "oneDayDeferralButtonText": "One Day",
         "oneHourDeferralButtonText": "One Hour",
