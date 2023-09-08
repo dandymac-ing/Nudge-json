@@ -1,6 +1,7 @@
 {
   "optionalFeatures": {
-    "acceptableApplicationBundleIDs": [],
+    "acceptableApplicationBundleIDs": [us.zoom.videomeetings],
+    "acceptableAssertionApplicationNames": [zoom.us]
     "acceptableAssertionUsage": false,
     "acceptableCameraUsage": false,
     "acceptableScreenSharingUsage": false,
@@ -15,32 +16,32 @@
   },
   "osVersionRequirements": [
     {
-      "aboutUpdateURL_disabled": "https://support.apple.com/en-us/HT211896#macos1121",
+      "aboutUpdateURL_disabled": "https://www.apple.com/macos/ventura/",
       "aboutUpdateURLs": [
         {
           "_language": "en",
-          "aboutUpdateURL": "https://support.apple.com/en-us/HT211896#macos1121"
+          "aboutUpdateURL": "https://www.apple.com/macos/ventura/"
         }
       ],
-      "majorUpgradeAppPath": "/Applications/Install macOS Monterey.app",
-      "requiredInstallationDate": "2022-09-16T00:00:00Z",
-      "requiredMinimumOSVersion": "13.1",
+      "majorUpgradeAppPath": "/Applications/Install macOS Ventura.app",
+      "requiredInstallationDate": "2023-09-15T12:00:00Z",
+      "requiredMinimumOSVersion": "13.5.2",
       "targetedOSVersionsRule": "default"
     }
   ],
   "userExperience": {
     "allowGracePeriods": false,
     "allowUserQuitDeferrals": true,
-    "allowedDeferrals": 5,
-    "allowedDeferralsUntilForcedSecondaryQuitButton": 5,
-    "approachingRefreshCycle": 6000,
-    "approachingWindowTime": 72,
-    "elapsedRefreshCycle": 300,
+    "allowedDeferrals": 1000000,
+    "allowedDeferralsUntilForcedSecondaryQuitButton": 20,
+    "approachingRefreshCycle": 12000,
+    "approachingWindowTime": 48,
+    "elapsedRefreshCycle": 6000,
     "gracePeriodInstallDelay": 23,
-    "gracePeriodLaunchDelay": 1,
+    "gracePeriodLaunchDelay": 2,
     "gracePeriodPath": "/private/var/db/.AppleSetupDone",
-    "imminentRefreshCycle": 600,
-    "imminentWindowTime": 24,
+    "imminentRefreshCycle": 12000,
+    "imminentWindowTime": 25,
     "initialRefreshCycle": 18000,
     "maxRandomDelayInSeconds": 1200,
     "noTimers": false,
@@ -53,23 +54,24 @@
     "forceScreenShotIcon": false,
     "iconDarkPath": "/usr/local/Kandji Media/Round corners-1.png",
     "iconLightPath": "/usr/local/Kandji Media/Round corners-1.png",
-    "screenShotDarkPath": "/somewhere/screenShotDark.png",
-    "screenShotLightPath": "/somewhere/screenShotLight.png",
+    "screenShotDarkPath": "/Applications/Install macOS Ventura.app/Contents/Resources/InstallAssistant.icns",
+    "screenShotLightPath": "/Applications/Install macOS Ventura.app/Contents/Resources/InstallAssistant.icns",
     "showDeferralCount": true,
     "simpleMode": false,
     "singleQuitButton": false,
     "updateElements": [
       {
         "_language": "en",
-        "actionButtonText": "Get Secure",
+        "actionButtonText": "Update My Mac",
         "customDeferralButtonText": "Custom",
         "customDeferralDropdownText": "Defer",
         "informationButtonText": "More Info",
         "mainContentHeader": "Your Mac will restart at least once during this update",
         "mainContentNote": "Please be certain to plug in your laptop to Power before proceeding",
-        "mainContentSubHeader": "Updates can take up to 45 minutes to complete",
-        "mainContentText": "Hello! A fully up-to-date Mac is required to ensure that IT can accurately protect it.\n\nIf you do not update your Mac, you may lose access to your Okta account.\n\nTo begin the update, simply click on the 'Get Secure' button and follow the provided steps.",
-        "mainHeader": "Handshake Service Desk: Sofware Update Required",
+        "mainContentSubHeader": "Updates can take up to 45 minutes or, rarely, longer to complete",
+        "mainContentText": "Hello! A fully up-to-date Mac is required to ensure compliance with InfoSec requirements as well as keeping your Mac functioning at its best and most secure.\n\nPlease complete this upgrade at your earliest convenience.\n\nTo begin the update, simply click on the ‘Update my Mac’ button and follow the provided steps.\n\n(You will be brought to your System Preferences to step through the upgrade)
+",
+        "mainHeader": "Handshake Service Desk: macOS Software Update Required",
         "oneDayDeferralButtonText": "One Day",
         "oneHourDeferralButtonText": "One Hour",
         "primaryQuitButtonText": "Later",
